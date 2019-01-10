@@ -1,0 +1,143 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* head */
+header {
+    color: #2d3c49;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 5px solid #7d97ad;
+}
+
+.img-logo {
+    width: 100%;
+    min-width: 84px;
+    box-shadow: 5px 10px 8px #2d3c49;
+}
+
+.description {
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+
+#author {
+    font-family: Roboto;
+    font-weight: 100;
+    font-size: 3.9em;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+#work-descrip {
+    text-align: left;
+    margin-top: 0;
+}
+
+
+@media screen and (max-width: 839px){
+
+    #author {
+        font-size: 6.9vw;
+    }
+
+    #work-descrip {
+        font-size: 3.1vw;
+    }
+
+}
+
+/* end head */
+
+
+/* main */
+.body-content {
+    min-width: 320px;
+}
+
+.img-body {
+    width: 100%;
+}
+
+.article-body {
+    text-align: center;
+    color: #2d3c49;
+}
+/* end main */
+
+
+/* Job section */
+
+.title-works{
+    color: #7d97ad;
+    text-transform: uppercase;
+    padding-left: 37px;
+}
+
+.job-descrip {
+    color: #2d3c49;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 1px;
+}
+
+.link-job{
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    color: #2d3c49;
+}
+
+.img-job {
+    width: 100%;
+}
+
+.img-job:hover {
+    box-shadow: 5px 10px 8px #2d3c49;
+}
+
+@media screen and (min-width: 600px){
+
+    .job-galery {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+
+    .fab {
+        font-size: 25px;
+    }
+
+}
+
+@media screen and (max-width: 425px){
+
+    .job-galery {
+        width: max-content;
+        position: relative;
+        left: 12%;
+    }
+}
+
+/* end Job section */
+
+/* footer */
+
+.footer {
+    margin-top: 10px;
+}
+
+.social-meida-icon {
+    background-color: #7d97ad;
+}
+
+.fab {
+    padding: 3px;
+    color: black;
+}
+
+/* end footer */
